@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container {
+    margin: auto;
+    margin-top: 5.8rem;
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#header {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#logo {
+    height: 5rem;
+}
+
+#illustration {
+    margin-top: 8rem;
+    height: 50rem;
+}
+
+#content {
+    color: white;
+    margin-top: 13rem;
+    margin-left: 5rem;
+}
+
+#title {
+    font-size: 2rem;
+}
+
+#description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.9rem;
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;
+}
+
+#register {
+    background-color: white;
+    color:hsl(257, 40%, 49%);
+    font-size: 1.9rem;
+    max-width: 20rem;
+    border-radius: 100px;
+    padding: 1.5rem 6rem 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+#register:hover{
+    color: white;
+    background-color: hsl(300, 69%, 71%);
+}
+
+#social-area {
+    grid-column-end: 3;
+    justify-self: right;
+}
+
+.social {
+    height: 5rem;
+    width: 5rem;
+    padding: 1rem 1rem 1rem;
+    margin-left: 1rem;
+    border-radius: 100%;
+    border: 0.2rem solid #fff;
+    cursor: pointer;
+}
+
+.social:hover{
+    filter:brightness(0) saturate(100%) invert(87%) sepia(20%) saturate(5619%) hue-rotate(250deg);
+
+}
+
