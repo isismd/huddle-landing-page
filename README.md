@@ -16,7 +16,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 > Solution URL: https://www.frontendmentor.io/solutions/huddle-landing-page-H16R7Eqz9
 > 
-> Live Site URL: https://github.com/isismd/huddle-landing-page
+> Live Site URL: https://isismd.github.io/huddle-landing-page/
 
 ## 🚀 Built with
 - CSS
