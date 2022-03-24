@@ -96,3 +96,67 @@ body {
 
 }
 
+@media (max-width: 1024px){
+    html {
+        font-size: 50%;
+    }
+    body {
+        margin: 6rem;
+        overflow-x: unset;
+    }
+
+    #logo {
+        height: 6rem;
+    }
+
+    .container {
+        display: block;
+        justify-items: center;
+        align-content: center;
+    }
+    
+    #illustration {
+        height: 90rem;
+        width: auto;
+    }
+
+    #content {
+        text-align: center;
+        margin-left: 0px;
+    }
+    #title {
+        font-size: 3rem;
+    }
+    #description {
+        font-size: 3rem;
+    }
+
+    #register {
+        max-width: unset;
+    }
+
+    #social-area {
+        margin-top: 5rem;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 770px){
+    html {
+        font-size: 25%;
+    }
+
+    #illustration {
+        max-height: 55rem;
+    }
+
+    #description {
+        font-size: 4rem;
+    }
+
+    #register {
+        font-size: 3.5rem;
+    }
+
+}
